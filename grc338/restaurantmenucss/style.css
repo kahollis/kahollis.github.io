@@ -10,33 +10,41 @@ body {
 }
 
 h1 {
+  	border: 0;
   color: rgb(163, 205, 217);
   font-size: 3em;
+  margin: 0;
 }
 
 h2 {
- 
+  border: 0;
   color: rgb(163, 205, 217);
   font-size: 2em;
+   margin: 0;
   padding-bottom:1.5em;
 }
 h3 {
   border-bottom: 2px solid rgb(163, 205, 217);
-  font-size: 1.5em;
-  padding: 1em 0em 0em 0em;
   color: rgb(163, 205, 217);
+  font-size: 1.5em;
+  margin: 0;
+  padding: 1em 0em 0em 0em;
 }
 
 h4 {
-  font-size: 1em;
-  padding: 0.2em 0em 0.1em 0em;
+  border: 0;
   color: rgb(242, 204, 57);
+  font-size: 1em;
+  margin: 0;
+  padding: 0.2em 0em 0.1em 0em;
 }
 
 p {
-  font-size: 1em;
-  padding: 0em 0.5em 0.5em 0em;
+  border: 0;
   color: rgb(113, 133, 133);
+  font-size: 1em;
+  margin: 0;
+  padding: 0em 0.5em 0.5em 0em;
 }
 
 ul {
