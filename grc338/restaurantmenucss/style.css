@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin-top:100px;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-family: sans-serif;
+	background: rgb(250, 250, 250);
+}
+h1{
+    margin: 0;
+	font-size: 3em;
+	color: rgb(113,133,133);
+}
+h2{ 
+	margin: 0;
+	border: 0;
+	font-size: 2em;
+	color: rgb(113,133,133);
+}
+h3{ 
+	margin: 0;
+	border: 0;
+	font-size: 1.5em;
+	padding: 1em 0em 0em 0em;
+	color: rgb(163, 205, 217);
+}
+
+h4{ 
+	margin: 0;
+	border: 0;
+	font-size: 1em;
+	padding: 0.2em 0em 0.1em 0em;
+	color: rgb(242, 204, 57);
+}
+
+p{
+margin: 0;
+border:0;
+font-size: 1em;
+padding: 0em 0.5em 0.5em 0em;
+color: rgb(113,133,133);
+}
+
+ul {
+	list-style: none;
+	padding: 0
+}
