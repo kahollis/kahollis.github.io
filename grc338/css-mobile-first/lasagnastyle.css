@@ -6,6 +6,10 @@ img {
 
 /*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
 
+html {
+  font-size: 62.5%; /* 10px browser default */
+}
+
 body {
   color: #555;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
