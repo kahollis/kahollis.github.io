@@ -1,25 +1,25 @@
 /*CSS DOCUMENT*/
 
 img {
-    width: 100%; /*Please leave this line.*/
+  width: 100%; /*Please leave this line.*/
 }
 
 /*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
 
 html {
-	font-size: 62.5%; /* 10px browser default */
-	margin: 5%;
+  font-size: 62.5%; /* 10px browser default */
+  margin: 5%;
 }
 
 body {
-	color: #555;
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
-	letter-spacing:.004em;
-	line-height:2;
+  color: #555;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.004em;
+  line-height: 1;
 }
 
-figcaption{
+figcaption {
   padding-top: 1em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -27,51 +27,52 @@ figcaption{
   font-style: italic;
 }
 
-li{ margin-left: 2.5%;
+li {
+  margin-left: 2.5%;
+  line-height: 2;
 }
-	
-ol{
-margin-left: 0%;
+
+ol {
+  margin-left: 0%;
+  line-height: 2;
 }
 
 /* Headings
 --------------------------------------------- */
 
-h1{
-	color:rgb(182, 26, 57);
-	font-family: 'EB Garamond', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	letter-spacing:0.04em;
-	font-size: 2.75em;
-	font-weight: 200;
-	line-height: 1.25;
-	text-transform: capitalize;}
-h2{
-	font-family: 'EB Garamond', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 2.25em;
-	font-weight: 100;
-	letter-spacing: 0.01em;
-	text-transform: capitalize;
+h1 {
+  color: rgb(182, 26, 57);
+  font-family: "EB Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.04em;
+  font-size: 3em;
+  font-weight: 200;
+  margin: 5%;
+  text-transform: capitalize;
+}
+h2 {
+  font-family: "EB Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  font-weight: 100;
+  margin-left: 5%;
+  letter-spacing: 0.01em;
+  margin: 5%;
+  text-transform: capitalize;
 }
 h3 {
-	color:rgb(28, 133, 19);
-	font-family: 'EB Garamond', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 1.75em;
-	font-weight: 100;
-	letter-spacing: 0.01em;
-	line-height: 1;
-	margin: 5%;
-	padding: 0;
-	text-transform: capitalize;
+  color: rgb(28, 133, 19);
+  font-family: "EB Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  margin: 5%;
+  text-transform: capitalize;
 }
 
 h6 {
-	font-family: 'EB Garamond', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 100;
-	letter-spacing: 0.1em;
-	line-height: 1.25;
-	margin-left: 4em;
-	margin-bottom: 4em;
-	padding: 0;
-	text-transform: uppercase;
-	font-size: 100.00;
+  font-family: "EB Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  margin-left: 4em;
+  margin-bottom: 4em;
+  text-transform: uppercase;
 }
