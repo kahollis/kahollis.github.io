@@ -32,7 +32,7 @@
  img {
      width: 100%;
     /*Please leave this line.*/
-     margin-top: 1em;
+     margins: 1em 0.5em;
      grid-column: 1/2;
 }
  html {
