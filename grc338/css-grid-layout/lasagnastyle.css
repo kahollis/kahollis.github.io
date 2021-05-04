@@ -1,0 +1,95 @@
+/*CSS DOCUMENT*/
+ @import url("https://use.typekit.net/gja3ldy.css");
+ div.container {
+     max-width: 50em;
+     margin: 0 auto;
+     padding: 2em;
+     grid-template-columns: repeat 4, 1fr;
+}
+ figure {
+     display: grid;
+     grid-template-columns: 3fr 1fr;
+     grid-template-rows: 5em auto 3em;
+     grid-row-gap: 8em;
+     grid-column: 1/5;
+     margin: 2em;
+}
+ figcaption {
+     padding-top: 2em;
+     font-size: .95em;
+     width: 12em;
+     font-style: italic;
+     line-height: 1.4 
+}
+ main {
+     display: grid;
+     grid-template-columns: 1fr 1.5fr;
+     grid-template-rows: 5em auto 3em;
+     grid-row-gap: 12em;
+     grid-column-gap: 2.5em;
+     margin-bottom: 2em;
+}
+ img {
+     width: 100%;
+    /*Please leave this line.*/
+     margin-top: 1em;
+     grid-column: 1/2;
+}
+ html {
+     font-size: 1em;
+    /* 10px browser default */
+     margin: 1em;
+}
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
+ body {
+     color: #555;
+     font-family: 'Open Sans';
+     font-size: 1em;
+     letter-spacing:.004em;
+     line-height:1;
+}
+ figcaption{
+     padding-top: 1em;
+     padding-left: 0.5em;
+     padding-right: 0.5em;
+     padding-bottom: 1em;
+     font-style: italic;
+}
+ li{
+     line-height:2;
+}
+ ol{
+     line-height:2;
+}
+/* Headings --------------------------------------------- */
+ h1{
+     color:rgb(182, 26, 57);
+     letter-spacing:0.04em;
+     font-size: 3em;
+     font-weight: 200;
+     margin:0.25em;
+     text-transform: capitalize;
+}
+ h2{
+     font-size: 2em;
+     font-weight: 100;
+     margin-left:0.25em;
+     letter-spacing: 0.01em;
+}
+ h3 {
+     color:rgb(28, 133, 19);
+     font-size: 1.5em;
+     font-weight: 100;
+     letter-spacing: 0.01em;
+     margin: 0.25em;
+}
+ h6 {
+     font-weight: 100;
+     letter-spacing: 0.1em;
+     margin-left: 4em;
+     margin-top: 21em;
+     margin-bottom: 4em;
+}
+ footer{
+     grid-row: 4;
+}
