@@ -1,4 +1,5 @@
 /*CSS DOCUMENT*/
+ /*CSS DOCUMENT*/
  @import url("https://use.typekit.net/gja3ldy.css");
  div.container {
      max-width: 50em;
@@ -10,12 +11,12 @@
      display: grid;
      grid-template-columns: 3fr 1fr;
      grid-template-rows: 5em auto 3em;
-     grid-row-gap: 8em;
-     grid-column: 1/5;
-     margin: 2em;
+     grid-row-gap: 7em;
+     grid-column-gap: 1.7em;
+	 grid-column: 1/5;
 }
  figcaption {
-     padding-top: 2em;
+	 padding-left: 2em;
      font-size: .95em;
      width: 12em;
      font-style: italic;
@@ -30,10 +31,10 @@
      margin-bottom: 2em;
 }
  img {
-     width: 100%;
+    width: 100%;
     /*Please leave this line.*/
-     margins: 1em 0.5em;
-     grid-column: 1/2;
+    margin-top: 1em;
+    grid-column: 1/2;
 }
  html {
      font-size: 1em;
@@ -63,12 +64,15 @@
 }
 /* Headings --------------------------------------------- */
  h1{
-     color:rgb(182, 26, 57);
-     letter-spacing:0.04em;
-     font-size: 3em;
-     font-weight: 200;
-     margin:0.25em;
-     text-transform: capitalize;
+    color: rgb(182, 26, 57);
+    letter-spacing: 0.04em;
+    font-size: 3em;
+    font-weight: 200;
+    margin-top: 0.25em;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    margin-bottom: 0.25em;
+    text-transform: capitalize;
 }
  h2{
      font-size: 2em;
@@ -87,7 +91,7 @@
      font-weight: 100;
      letter-spacing: 0.1em;
      margin-left: 4em;
-     margin-top: 21em;
+     margin-top: 22em;
      margin-bottom: 4em;
 }
  footer{
