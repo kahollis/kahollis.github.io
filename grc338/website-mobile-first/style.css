@@ -1,0 +1,127 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/snu1nwp.css");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  width: 100%;
+}
+
+h1 img {
+  width: 100%;
+  padding: 0.25em, 0em, 0em, 0.5em;
+  margin-left: 1.5em;
+  alignment-baseline: center;
+}
+div.container {
+  max-width: 60em;
+  margin: auto;
+}
+
+h1 a img {
+  width: 20%;
+  padding: 0.5em 1em 0.5em 1em;
+}
+nav ul li,
+nav ul li a {
+  font-family: josefin-sans, sans-serif;
+  font-weight: 800;
+  display: inline;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #74c153;
+  padding: 0.4em;
+}
+nav ul a:visited {
+  color: #74c153;
+}
+nav ul a:hover {
+  color: #63d832;
+  background-color: none;
+}
+
+ul {
+  padding-bottom: 1em;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #e2f2d9;
+  font-family: josefin-sans, sans-serif;
+  color: #333;
+  font-size: 1em;
+  max-width: 36em;
+  padding-bottom: 1em;
+  line-height: 1.6em;
+}
+body a:hover {
+  color: #63d832;
+}
+
+h1 {
+  max-width: 20em;
+  margin-bottom: 1em;
+  letter-spacing: normal;
+  font-size: 1.6em;
+  margin-top: 1.5em;
+  line-height: 1.3em;
+}
+
+h2 {
+  font-size: 1.3em;
+  color: #2d9600;
+  margin-top: 1em;
+  margin-left: 1.75em;
+  text-transform: none;
+}
+
+h3 {
+  color: #ffffff;
+  background-color: #6bd86e;
+  padding: 0em 1em 0em 2em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 700;
+  font-style: normal;
+  color: #2d9600;
+  margin-top: 0.75em;
+  margin-left: 0.25em;
+}
+p {
+  padding-left: 0.5em;
+  padding-bottom: 0em;
+}
+ul li p.price {
+  font-style: italic;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #6bd86e;
+  padding: 0.05em 1em 0.25em 0.5em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+footer a {
+  color: #2d750f;
+}
+footer a:hover {
+  color: #33af00;
+}
