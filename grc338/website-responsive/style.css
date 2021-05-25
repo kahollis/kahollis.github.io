@@ -16,6 +16,7 @@
      text-transform: uppercase;
      font-family: josefin-sans, sans-serif;
      letter-spacing: .05em;
+  	  margin: 1em 2em 2em 0em;
 }
  nav ul li a {
      color: #000000;
