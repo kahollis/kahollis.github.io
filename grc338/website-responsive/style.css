@@ -62,6 +62,7 @@ h3 {
     font-style: normal;
     text-transform: uppercase;
     margin: 1em 1em 1em 2em;
+    color: #129F0F;
 }
 
 h4 {
@@ -85,16 +86,18 @@ p {
 }
 
 footer {
-     font-family: josefin-sans, sans-serif;
-     letter-spacing: 0.05em;
-     background-color: #BBE29E;
-     color: #300;
-     margin-top:5em;
-     padding: 2em 0em 1em 2.4em;
+    font-family: josefin-sans, sans-serif;
+    letter-spacing: 0.05em;
+    background-color: #bed954f7
+	color: #300;
+	margin-top: 5em;
+    margin-bottom: 3em;
+	margin-right:auto;
+    padding: 1em 0em 1em 2.4em;
 }
 
 footer a:hover {
-	color: #129F0F;
+	color: #ffffff;
 }
 
 footer a:link{
