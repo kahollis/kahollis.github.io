@@ -65,6 +65,16 @@
      margin: 1em 2em 1em 2.2em;
      line-height: 2em;
 }
+
+footer a, p a:link {
+     color: #300;
+	text-decoration: none;
+}
+
+p a:hover {
+     color: #129F0F;
+}
+
 .price {
      font-style: italic;
      margin-bottom: 3em;
