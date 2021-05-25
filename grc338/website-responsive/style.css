@@ -55,6 +55,7 @@
      font-family:josefin-sans, sans-serif;
      font-weight: 600;
      font-style: normal;
+     text-transform: uppercase;
      margin: 1em 1em 1em 0em;
 }
  p {
@@ -72,7 +73,8 @@
      font-family: josefin-sans, sans-serif;
      color: #300;
      letter-spacing: 0.05em;
-     background-color: #bed954f7 margin-top: 5em;
+     background-color: #bed954f7;
+     margin-top: 5em;
      margin-bottom: 3em;
      margin-right:auto;
      padding: 1em 0em 1em 2.4em;
